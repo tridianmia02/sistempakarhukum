@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mia.skripsi.korupsi.pasal12Cayat4Activity">
+
+    <Button
+        android:id="@+id/button63"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 12c ayat 4"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp">
+
+        <TextView
+            android:id="@+id/textView66"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Ketentuan  mengenai tata cara penyampaian laporan sebagaimana dimaksud dalam ayat (2) dan penentuan status gratifikasi sebagaimana dimaksud dalam ayat (3) diatur dalam Undang-undang tentang Komisi Pemberantasan Tindak Pidana Korupsi. "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button64"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="berikut bunyi pasal 12c ayat 2 dan 3" />
+
+</LinearLayout>

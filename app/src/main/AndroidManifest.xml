@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="mia.skripsi.korupsi">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".hasilActivity"></activity>
+        <activity android:name=".hasil07Activity" />
+        <activity android:name=".hasil06Activity" />
+        <activity android:name=".hasil05Activity" />
+        <activity android:name=".hasil04Activity" />
+        <activity android:name=".hasil03Activity" />
+        <activity android:name=".hasil02Activity" />
+        <activity android:name=".hasil01Activity" />
+        <activity android:name=".P07Activity" />
+        <activity android:name=".P06Activity" />
+        <activity android:name=".P05Activity" />
+        <activity android:name=".P04Activity" />
+        <activity android:name=".P03Activity" />
+        <activity android:name=".P02Activity" />
+        <activity android:name=".P01Activity" />
+        <activity android:name=".pasal16Activity" />
+        <activity android:name=".pasal15Activity" />
+        <activity android:name=".pasal14Activity" />
+        <activity android:name=".pasal13Activity" />
+        <activity android:name=".pasal12Cayat2dan3Activity" />
+        <activity android:name=".pasal12Cayat4Activity" />
+        <activity android:name=".pasal12Cayat3Activity" />
+        <activity android:name=".pasal12Cayat2Activity" />
+        <activity android:name=".pasal12Cayat1Activity" />
+        <activity android:name=".pasal12Bayat2Activity" />
+        <activity android:name=".pasal12Bayat1Activity" />
+        <activity android:name=".pasal12Aayat2Activity" />
+        <activity android:name=".pasal12Aayat1Activity" />
+        <activity android:name=".pasal12Activity" />
+        <activity android:name=".pasal11Activity" />
+        <activity android:name=".pasal10Activity" />
+        <activity android:name=".pasal9Activity" />
+        <activity android:name=".pasal8Activity" />
+        <activity android:name=".pasal7ayat2Activity" />
+        <activity android:name=".pasal7ayat1Activity" />
+        <activity android:name=".pasal6ayat2Activity" />
+        <activity android:name=".pasal6ayat1Activity" />
+        <activity android:name=".pasal5ayat2Activity" />
+        <activity android:name=".pasal5ayat1Activity" />
+        <activity android:name=".pasal2dan3Activity" />
+        <activity android:name=".pasal4Activity" />
+        <activity android:name=".pasal3Activity" />
+        <activity android:name=".pasal2ayat2Activity" />
+        <activity android:name=".pasal2ayat1Activity" />
+        <activity
+            android:name=".tentangActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mia.skripsi.korupsi.MainActivity" />
+        </activity>
+        <activity
+            android:name=".analisaActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mia.skripsi.korupsi.MainActivity" />
+        </activity>
+        <activity
+            android:name=".homeActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mia.skripsi.korupsi.MainActivity" />
+        </activity>
+        <activity
+            android:name=".pasalActivity"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="mia.skripsi.korupsi.MainActivity" />
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

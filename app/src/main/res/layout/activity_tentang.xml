@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".tentangActivity">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Sistem Pakar Penentuan Pasal Tindak Pidana Korupsi"
+        android:textColor="#141313"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"/>
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Aplikasi ini merupakan sebuah aplikasi sistem pakar dengan menggunakan metode backward chaining, fitur yang disediakan meliputi menentukan Pasal Undang-undang Tindak Pidana Korupsi berdasarkan jenis pelanggaran. Diharapkan dengan adanya aplikasi ini dapat membantu pengguna khususnya di bidang hukum. Serta mengefisienkan waktu ketika mencari informasi Tindak Pidana Korupsi.  "
+        android:textColor="#141313"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="3dp"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="260dp"
+        android:layout_height="136dp"
+        app:srcCompat="@mipmap/img_biodata" />
+
+</LinearLayout>

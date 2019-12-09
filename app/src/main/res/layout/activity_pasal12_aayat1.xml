@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mia.skripsi.korupsi.pasal12Aayat1Activity">
+
+    <Button
+        android:id="@+id/button54"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 12a ayat 1"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView57"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Ketentuan mengenai pidana penjara dan pidana denda sebagaimana dimaksud Pasal 5, Pasal 6, Pasal 7, Pasal 8, Pasal 9, Pasal 10, Pasal 11 dan Pasal 12 tidak berlaku bagi tindak pidana korupsi yang nilainya kurang dari Rp5.000.000,00 "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+</LinearLayout>

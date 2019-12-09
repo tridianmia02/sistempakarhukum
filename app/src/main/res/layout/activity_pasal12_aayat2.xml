@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mia.skripsi.korupsi.pasal12Aayat2Activity">
+
+    <Button
+        android:id="@+id/button55"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 12a ayat2"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView58"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Bagi pelaku tindak pidana korupsi yang nilainya kurang dari Rp 5.000.000,00 (lima juta rupiah) sebagaimana dimaksud dalam ayat (1) dipidana dengan pidana penjara paling lama 3 (tiga) tahun dan pidana denda paling banyak Rp50.000.000,00 (lima puluh juta rupiah)."
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+</LinearLayout>

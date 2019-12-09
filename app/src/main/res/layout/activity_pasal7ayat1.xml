@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mia.skripsi.korupsi.pasal7ayat1Activity">
+
+    <Button
+        android:id="@+id/button46"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 7 ayat 1"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Dipidana dengan pidana penjara paling singkat 2 (dua) tahun dan paling lama 7 (tujuh) tahun dan pidana denda paling sedikit Rp100.000.000,00 (seratusjuta rupiah) dan paling banyak Rp350.000.000,00 (tiga ratus lima puluh juta rupiah): "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="a. pemborong, ahli bangunan yang pada waktu membuat bangunan, atau penjual bahan bangunan yang pada waktu menyerahkan bahan bangunan, melakuakn perbuatan curang yang dapat membahayakan keamanan orang atau barang, atau keselamatan negara dlam keadaan perang; "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="b. setiap orang yang bertugas mengawasi pembangunan atau penyerahan bahan bangunan, sengaja membiarkan perbuatan curang sebagaimana dimaksud dimaksud dlam huruf a;"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView37"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="c. setiap orang yang pada waktu menyerahkan barang keperluan Tentara Nasional Indonesia dan atau Kepolisisan Negara Republik Indonesia melakukan perbuatan curang yang dapat membahayakan keselamatan negaradalam keadaaan perang; atau"
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="d. setiap orang yang bertugas mengawasi penyerahan barang keperluan Tentara Nasional Indonesia dan atau Kepolisian Negara Republik Indonesia dengan sengaja membiarkan perbuatan curang sebagaimana dimaksud dalam huruf c. "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+</LinearLayout>

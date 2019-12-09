@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Tindak Pidana Korupsi </string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Penentuan Pasal Tindak Pidana Korupsi</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="nav_header">Menurut UU no.30 Tahun 1999 Jo UU no.21 Tahun 2001</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Analisis</string>
+    <string name="menu_slideshow">Pasal Pidana Korupsi</string>
+    <string name="menu_tools">Tentang Aplikasi</string>
+</resources>

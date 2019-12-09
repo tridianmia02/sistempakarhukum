@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context="mia.skripsi.korupsi.pasal12Cayat2dan3Activity">
+
+    <Button
+        android:id="@+id/button65"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 12c ayat 2"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView67"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Penyam,paian laporan sebagaimana dimaksud dalam ayat (1) wajib dilakukan oleh penerima gratifikasi paling lambat 30 (tiga puluh) hari kerja terhitng sejak tanggal gratifikasi tersebut diterima."
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+    <Button
+        android:id="@+id/button66"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="pasal 12c ayat 3"
+        android:textSize="18dp"
+        android:textStyle="bold"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:background="@android:color/background_light"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView68"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="3dp"
+            android:text="Komisi Pemberantasan Tindak Pidana Korupsi dalam waktu paling lambat 30 (tiga puluh) hari kerja sejak tanggal menerima laporan wajib menetapkan gratifikasi dapat menjadi milik penerima atau milik negara. "
+            android:textColor="@android:color/black"
+            android:textSize="15dp"
+            android:textStyle="bold"/>
+
+    </TableLayout>
+
+</LinearLayout>

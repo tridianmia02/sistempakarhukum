@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#971E1E"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".homeActivity">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="3dp">
+
+                            <ImageView
+                                android:id="@+id/imageView3"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:src="@mipmap/ic_launcher_foreground" />
+
+                            <TextView
+                                android:id="@+id/textView"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:text="SISTEM PAKAR"
+                                android:textColor="#141313"
+                                android:textSize="25sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:gravity="center"
+                                android:padding="3dp"
+                                android:text="Penentuan Pasal Tindak Pidana Korupsi"
+                                android:textSize="20sp"
+                                android:textStyle="bold" />
+
+                            <TextView
+                                android:id="@+id/textView33"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:textAlignment="center"
+                                android:text="Menurut UU no.31 Tahun 1999 Jo UU no.21 Tahun 2001"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:id="@+id/textView3"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sistem Pakar"
+                                android:padding="3dp"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textView4"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Sistem Pakar atau expert system merupakan cabang ilmu dari kecerdasan buatan. Sistem pakar dirancang agar dapat menyelesaikan suatu permasalahan tertentu dengan meniru kerja dari para ahli atau pakar. "
+                                android:textSize="15sp"
+                                android:textColor="@android:color/black"
+                                android:padding="3dp"/>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:id="@+id/textView5"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Korupsi"
+                                android:padding="3dp"
+                                android:textColor="@android:color/black"
+                                android:textSize="20sp" />
+
+                            <TextView
+                                android:id="@+id/textView6"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:text="Tindakan seseorang yang dengan atau karena melakukan suatu kejahatan atau pelanggaran memperkaya diri sendiri atas orang lain atau suatu badan yang secara langsung atak tidak langsung merugikan perekonomian negara atau daerah atau badan hukum lainnya."
+                                android:textColor="@android:color/black"
+                                android:textSize="15sp" />
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:id="@+id/textView7"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:text="#Delik Formil"
+                                android:textColor="@android:color/black"/>
+
+                            <TextView
+                                android:id="@+id/textView8"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:text="Delik yang dianggap telat selesai dengan dilakukannya tindakan yang dilarang dan diancam dengan hukuman oleh Undang-undang"
+                                android:textColor="@android:color/black"/>
+
+                    </TableLayout>
+
+                    <TableLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center|center_vertical"
+                        android:background="@android:color/background_light"
+                        android:orientation="vertical"
+                        android:layout_marginBottom="3dp">
+
+                            <TextView
+                                android:id="@+id/textView17"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:text="#Delik Materil"
+                                android:textColor="@android:color/black"/>
+
+                            <TextView
+                                android:id="@+id/textView18"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:padding="3dp"
+                                android:text="Delik yang dianggap telah selesai dengan ditimbulkannya akibat yang dilarang dan diancam dengan hukuman oleh Undang-undang"
+                                android:textColor="@android:color/black"/>
+
+                    </TableLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+</LinearLayout>

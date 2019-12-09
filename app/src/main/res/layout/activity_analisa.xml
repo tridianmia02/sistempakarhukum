@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context="mia.skripsi.korupsi.analisaActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/checkBox"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tindak pidana dilakukan di wilayah Republik Indonesia." />
+
+            <CheckBox
+                android:id="@+id/checkBox2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Dilakukan perseorangan dan atau suatu korporasi." />
+
+            <CheckBox
+                android:id="@+id/checkBox3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Merugikan keuangan negara atau perekonomian negara." />
+
+            <CheckBox
+                android:id="@+id/checkBox4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perbuatan suap menyuap." />
+
+            <CheckBox
+                android:id="@+id/checkBox5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perbuatan pemerasan sepihak." />
+
+            <CheckBox
+                android:id="@+id/checkBox6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perbuatan gratifikasi dalam arti pemberian uang, barang, diskon, komisi, pinjaman tanpa bunga, tiket perjalanan, fasilitas penginapan, perjalanan wisata dan perjalanan cuma-cuma." />
+
+            <CheckBox
+                android:id="@+id/checkBox7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perbuatan kepentingan dalam pengadaan." />
+
+            <CheckBox
+                android:id="@+id/checkBox8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Perbuatan curang yang dapat membahayakan keamanan orang atau barang, atau keselamatan negara dalam keadaan perang." />
+
+            <CheckBox
+                android:id="@+id/checkBox9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penggelapan dana dengan sengaja menggelapkan uang atau surat berbahaya yang disimpan karena jabatannya, atau membiarkan uang dan surat tersebut digelapkan oleh orang lain." />
+
+            <CheckBox
+                android:id="@+id/checkBox10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Menyalahgunakan kekuasaan dalam kedudukan jabatan." />
+
+            <CheckBox
+                android:id="@+id/checkBox11"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Melanggar atau bertentangan dengan Undang-Undang." />
+
+            <CheckBox
+                android:id="@+id/checkBox12"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memperkaya diri sendiri atau orang lain atau suatu korporasi yang merugikan keuangan negara." />
+
+            <CheckBox
+                android:id="@+id/checkBox13"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Memberi atau menjanjikan suatu kepada pegawai negeri dengan maksud supaya pegawai negeri tersebut berbuat atau tidak berbuat sesuatu dalam jabatannya yang bertentangan dengan kewajibannya." />
+
+            <CheckBox
+                android:id="@+id/checkBox14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mempengaruhi putusan perkara yang diserahkan kepadanya untuk diadili." />
+
+            <CheckBox
+                android:id="@+id/checkBox15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sengaja memalsu buku-buku atau daftar-daftar yang khusus untuk pemeriksaan administrasi." />
+
+            <CheckBox
+                android:id="@+id/checkBox16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Waktu menjalankan tugas, menerima pekerjaan atau penyerahan barang seolah-olah merupakan hutang kepada dirinya padahal diketahui bahwa hal tersebut bukan merupakan hutang." />
+
+            <CheckBox
+                android:id="@+id/checkBox17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Penyelenggara negara baik langsung maupun tidak langsung dengan sengaja turut serta dalam pemborongan, pengadaan atau persewaan untuk mengurus atau mengawasinya." />
+
+            <CheckBox
+                android:id="@+id/checkBox18"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Membantu orang lain menghilangkan, menghancurkan, merusak, atau tidak dapat dipakai barang , akta, surat, atau daftar yang digunakan untuk meyakinkan atau membuktikan di muka jabatan yang berwenang." />
+
+            <CheckBox
+                android:id="@+id/checkBox19"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Setiap orang yang memberi hadiah atau janji kepada pegawai negeri dengan mengingat kekuasaan atau wewenang yang melekat pada jabatan atau jabatannya." />
+
+            <Button
+                android:id="@+id/button80"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mulai Analisa"
+                android:onClick="onCheckboxCliked"
+                tools:ignore="OnClick"
+                android:background="#971E1E"/>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
